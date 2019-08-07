@@ -1,4 +1,4 @@
-﻿importrequests, json, re
+﻿import requests, json, re
 
 
 html = requests.get('https://www.daraz.pk/catalog/?q=Bridal%20dress').text
